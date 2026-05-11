@@ -1,6 +1,7 @@
 #include <cstdint>
 
 namespace tcp_payload {
+
 constexpr inline uint8_t TCP_LOGIN = 0;
 constexpr inline uint8_t TCP_FIGHTER = 1;
 
@@ -35,7 +36,10 @@ struct tcp_update{
 	} payload;
 };
 static_assert(sizeof(tcp_update) == 16);
+
 }
+
+
 
 namespace udp_payload {
 
