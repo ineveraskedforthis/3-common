@@ -4,7 +4,7 @@ Payloads tailored for regular updates sent via udp socket to players.
 
 #include <cstdint>
 
-namespace udp_update {
+namespace udp_payload {
 
 inline constexpr uint8_t UPDATE_SPATIAL = 0;
 inline constexpr uint8_t UPDATE_FIGHTER = 1;
